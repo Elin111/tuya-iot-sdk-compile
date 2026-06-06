@@ -58,3 +58,8 @@ cmake --build /home/vboxuser/MQTT_SEVR/tuya-iot-core-sdk/build-shared -j
 bash
 sudo mkdir -p /opt/tuya-iot-core-sdk/{lib,bin}
 sudo chown -R $USER:$USER /opt/tuya-iot-core-sdk
+
+
+或者加上install
+cmake --install /home/vboxuser/MQTT_SEVR/tuya-iot-core-sdk/build-shared --prefix /opt/tuya-iot-core-sdk
+
